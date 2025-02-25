@@ -14,3 +14,6 @@ __pycache__/
 
 # Environment variables or secret files (if any)
 .env
+
+eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)".pub
